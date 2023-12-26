@@ -4,6 +4,10 @@ html {
 body  {
     height: 100vh;
     overflow: hidden;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
 }
 * {
     margin: 0;

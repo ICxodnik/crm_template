@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/aside.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <script defer src="./js/file.js"></script>
   </head>
   <body>
     <header>
@@ -66,7 +67,7 @@
             />
           </svg>
           <div class="user">
-            <div class="user-name>Адміністратор</div>
+            <div class="user-name">Адміністратор</div>
             <svg
               class="chevron-icon"
               width="8"
@@ -84,9 +85,10 @@
         </div>
       </div>
     </header>
-    <aside>
-      <div class="menu">
+    <aside id="aside_menu">
+      <div class="menu" id="menu">
         <div class="menu-item">
+          <div class="rectangle"></div>
           <div class="item">
             <svg
               class="menu-icon"
@@ -117,10 +119,27 @@
                 </linearGradient>
               </defs>
             </svg>
+            <div class="item-text">Головна</div>
+            <svg
+              class="icons-chevron-down"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.60059 9L12.6006 15L18.6006 9"
+                stroke="#1A2433"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
         <div class="menu-item selected-item">
-          <div class="rectangle-3467504"></div>
+          <div class="rectangle"></div>
           <div class="item">
             <svg
               class="menu-icon"
@@ -189,9 +208,27 @@
                 </clipPath>
               </defs>
             </svg>
+            <div class="item-text">Заявки</div>
+            <svg
+              class="icons-chevron-down"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.60059 9L12.6006 15L18.6006 9"
+                stroke="#1A2433"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
         <div class="menu-item">
+          <div class="rectangle"></div>
           <div class="item">
             <svg
               class="menu-icon"
@@ -261,9 +298,27 @@
                 </clipPath>
               </defs>
             </svg>
+            <div class="item-text">Поліси</div>
+            <svg
+              class="icons-chevron-down"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.60059 9L12.6006 15L18.6006 9"
+                stroke="#1A2433"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
         <div class="menu-item">
+          <div class="rectangle"></div>
           <div class="item">
             <svg
               class="menu-icon"
@@ -317,9 +372,27 @@
                 </clipPath>
               </defs>
             </svg>
+            <div class="item-text">Бланки</div>
+            <svg
+              class="icons-chevron-down"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.60059 9L12.6006 15L18.6006 9"
+                stroke="#1A2433"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
         <div class="menu-item">
+          <div class="rectangle"></div>
           <div class="item">
             <svg
               class="menu-icon"
@@ -373,9 +446,27 @@
                 </clipPath>
               </defs>
             </svg>
+            <div class="item-text">Довідники</div>
+            <svg
+              class="icons-chevron-down"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.60059 9L12.6006 15L18.6006 9"
+                stroke="#1A2433"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
         <div class="menu-item">
+          <div class="rectangle"></div>
           <div class="item">
             <svg
               class="menu-icon"
@@ -468,9 +559,27 @@
                 </linearGradient>
               </defs>
             </svg>
+            <div class="item-text">Звіти</div>
+            <svg
+              class="icons-chevron-down"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.60059 9L12.6006 15L18.6006 9"
+                stroke="#1A2433"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
         <div class="menu-item">
+          <div class="rectangle"></div>
           <div class="item">
             <svg
               class="menu-icon"
@@ -537,11 +646,28 @@
                 </clipPath>
               </defs>
             </svg>
+            <div class="item-text">Адміністрування</div>
+            <svg
+              class="icons-chevron-down"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.60059 9L12.6006 15L18.6006 9"
+                stroke="#1A2433"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
       </div>
-      <div class="expand-button">
-        <div class="expand-combine-icon">
+      <div class="expend-button" id="expend_button" data-expended="off">
+        <div class="expend-combine-icon">
           <svg
             width="9"
             height="15"
